@@ -38,13 +38,6 @@ $countLowStock2 = $lowStockQuery2->num_rows;
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <div class="page-wrapper">
 
-    <!--     <div class="row page-titles">
-                <div class="col-md-12 align-self-center">
-                    <div class="float-right"><h3 style="color:black;"><p style="color:black;"><?php echo date('l') . ' ' . date('d') . '- ' . date('m') . '- ' . date('Y'); ?></p></h3>
-                    </div>
-                    </div>
-                
-            </div> -->
 
 
     <div class="container-fluid ">

@@ -355,22 +355,19 @@ VALUES
 -- Table structure for table `users`
 --
 CREATE TABLE `users` (
-  `user_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL
-) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+  `email` varchar(255) NOT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
 
---
--- Dumping data for table `users`
---
 INSERT INTO
-  `users` (`user_id`, `username`, `password`, `email`)
+  `users` (`username`, `password`, `email`)
 VALUES
   (
-    1,
     'admin',
-    '7dd2259de9fef85fa6a0a04423a0dbc6',
+    '$2y$10$OrVuTVZmwI..I5s8Q3t0RuETwsKYZXGp5F4oq2M/DJUv/fmSk0sCa',
     'admin@gmail.com'
   );
 
