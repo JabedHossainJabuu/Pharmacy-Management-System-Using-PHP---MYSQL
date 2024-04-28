@@ -363,11 +363,11 @@ CREATE TABLE `users` (
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
 
 INSERT INTO
-  `users` (`username`, `password`, `email`)
+  users (username, password, email)
 VALUES
   (
     'admin',
-    '$2y$10$OrVuTVZmwI..I5s8Q3t0RuETwsKYZXGp5F4oq2M/DJUv/fmSk0sCa',
+    '$2y$10$1tNL7lcn5hVo.k0R58ItUuLVn5vzSVw0aWqX0c7DpARVf9qz71zN6',
     'admin@gmail.com'
   );
 
