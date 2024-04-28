@@ -8,9 +8,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="description" content="This Dawa Pharma Invoice System Developed by Mayuri K. Freelancer in india">
-<meta name="keywords" content="Mayuri K.freelancer in india">
-<meta name="author" content="Mayuri K">
+<meta name="description" content="This Dawa Pharma Invoice System Developed by Jabed Hossain. Freelancer in india">
+<meta name="keywords">
+<meta name="author">
     
     <link rel="icon" type="image/png" sizes="16x16" href="assets/uploadImage/Logo/favicon.png">
      <?php
@@ -20,7 +20,7 @@
              // $result_head_title = $conn->query($sql_head_title);
              // $row_head_title = mysqli_fetch_array($result_head_title);
              ?>
-    <title>Dawa Pharma Invoice System - Mayuri K</title>
+    <title>Dawa Pharma Invoice System - Jabed Hossain</title>
 
     <link href="assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
   <link href="assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
